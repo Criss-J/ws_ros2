@@ -248,7 +248,7 @@ class DroneUnified(Node):
         self.position_history = []
 
         # ── LLM ──
-        vertexai.init(project="geonhui-494205", location="us-central1")
+        vertexai.init(project="your_name", location="us-central1")
         self.llm = ChatVertexAI(model_name="gemini-2.5-flash", temperature=0.0)
 
         # ── 타이머 ──
