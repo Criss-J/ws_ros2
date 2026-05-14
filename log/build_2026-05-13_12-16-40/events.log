@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.001437] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001566] (my_offboard_ctrl) JobQueued: {'identifier': 'my_offboard_ctrl', 'dependencies': OrderedDict()}
+[0.001652] (my_offboard_ctrl) JobStarted: {'identifier': 'my_offboard_ctrl'}
+[0.098992] (-) TimerEvent: {}
+[0.199653] (-) TimerEvent: {}
+[0.300302] (-) TimerEvent: {}
+[0.400912] (-) TimerEvent: {}
+[0.501530] (-) TimerEvent: {}
+[0.602120] (-) TimerEvent: {}
+[0.702698] (-) TimerEvent: {}
+[0.803288] (-) TimerEvent: {}
+[0.903883] (-) TimerEvent: {}
+[1.004470] (-) TimerEvent: {}
+[1.105048] (-) TimerEvent: {}
+[1.205706] (-) TimerEvent: {}
+[1.306572] (-) TimerEvent: {}
+[1.407197] (-) TimerEvent: {}
+[1.507789] (-) TimerEvent: {}
+[1.608487] (-) TimerEvent: {}
+[1.709464] (-) TimerEvent: {}
+[1.810097] (-) TimerEvent: {}
+[1.910719] (-) TimerEvent: {}
+[2.011280] (-) TimerEvent: {}
+[2.111891] (-) TimerEvent: {}
+[2.212460] (-) TimerEvent: {}
+[2.313039] (-) TimerEvent: {}
+[2.413637] (-) TimerEvent: {}
+[2.514225] (-) TimerEvent: {}
+[2.614862] (-) TimerEvent: {}
+[2.715762] (-) TimerEvent: {}
+[2.816901] (-) TimerEvent: {}
+[2.858757] (my_offboard_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_offboard_ctrl', 'build', '--build-base', '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/build', 'install', '--record', '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yangdrone/ws_ros2/src/my_offboard_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yangdrone', 'SSH_CLIENT': '192.168.3.14 50318 22', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yangdrone/ws_ros2/install/px4_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yangdrone', 'OLDPWD': '/home/yangdrone', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/yangdrone/ws_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yangdrone', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/yangdrone/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '18', 'AMENT_PREFIX_PATH': '/home/yangdrone/ws_ros2/install/px4_msgs:/home/yangdrone/ws_ros2/install/my_offboard_ctrl:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'PWD': '/home/yangdrone/ws_ros2/build/my_offboard_ctrl', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.3.14 50318 192.168.3.156 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:/home/yangdrone/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/yangdrone/ws_ros2/install/px4_msgs'}, 'shell': False}
+[2.917026] (-) TimerEvent: {}
+[3.017768] (-) TimerEvent: {}
+[3.118385] (-) TimerEvent: {}
+[3.218979] (-) TimerEvent: {}
+[3.319580] (-) TimerEvent: {}
+[3.420181] (-) TimerEvent: {}
+[3.520739] (-) TimerEvent: {}
+[3.621289] (-) TimerEvent: {}
+[3.721847] (-) TimerEvent: {}
+[3.822458] (-) TimerEvent: {}
+[3.923050] (-) TimerEvent: {}
+[3.942035] (my_offboard_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[3.945506] (my_offboard_ctrl) StdoutLine: {'line': b'writing ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/PKG-INFO\n'}
+[3.946538] (my_offboard_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/dependency_links.txt\n'}
+[3.947740] (my_offboard_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/entry_points.txt\n'}
+[3.948464] (my_offboard_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/requires.txt\n'}
+[3.949139] (my_offboard_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/top_level.txt\n'}
+[3.956786] (my_offboard_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'\n"}
+[3.958244] (my_offboard_ctrl) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.960748] (my_offboard_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'\n"}
+[3.961338] (my_offboard_ctrl) StdoutLine: {'line': b'running build\n'}
+[3.961767] (my_offboard_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[3.963493] (my_offboard_ctrl) StdoutLine: {'line': b'copying my_offboard_ctrl/drone_unified.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl\n'}
+[3.965186] (my_offboard_ctrl) StdoutLine: {'line': b'running install\n'}
+[3.966378] (my_offboard_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[3.971975] (my_offboard_ctrl) StdoutLine: {'line': b'copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/drone_unified.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl\n'}
+[3.976353] (my_offboard_ctrl) StdoutLine: {'line': b'byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/drone_unified.py to drone_unified.cpython-310.pyc\n'}
+[3.988044] (my_offboard_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[3.988738] (my_offboard_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.994962] (my_offboard_ctrl) StdoutLine: {'line': b"removing '/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.996652] (my_offboard_ctrl) StdoutLine: {'line': b'Copying ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl-0.0.0-py3.10.egg-info\n'}
+[4.001902] (my_offboard_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[4.023336] (-) TimerEvent: {}
+[4.078639] (my_offboard_ctrl) StdoutLine: {'line': b'Installing drone_unified script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.079494] (my_offboard_ctrl) StdoutLine: {'line': b'Installing flight script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.080470] (my_offboard_ctrl) StdoutLine: {'line': b'Installing langcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.081318] (my_offboard_ctrl) StdoutLine: {'line': b'Installing offboard_ctrl_example script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.082065] (my_offboard_ctrl) StdoutLine: {'line': b'Installing realcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.082848] (my_offboard_ctrl) StdoutLine: {'line': b'Installing test script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.083577] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testaction script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.084387] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testaction1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.085111] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testaction2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.085738] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testhead script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.086576] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testhead1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.087211] (my_offboard_ctrl) StdoutLine: {'line': b'Installing testhead2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl\n'}
+[4.088933] (my_offboard_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log'\n"}
+[4.123660] (-) TimerEvent: {}
+[4.201630] (my_offboard_ctrl) CommandEnded: {'returncode': 0}
+[4.223781] (-) TimerEvent: {}
+[4.249099] (my_offboard_ctrl) JobEnded: {'identifier': 'my_offboard_ctrl', 'rc': 0}
+[4.251777] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[2.906s] Invoking command in '/home/yangdrone/ws_ros2/src/my_offboard_ctrl': PYTHONPATH=/home/yangdrone/ws_ros2/build/my_offboard_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_offboard_ctrl build --build-base /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build install --record /home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log --single-version-externally-managed install_data
+[4.008s] running egg_info
+[4.012s] writing ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/PKG-INFO
+[4.013s] writing dependency_links to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/dependency_links.txt
+[4.014s] writing entry points to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/entry_points.txt
+[4.015s] writing requirements to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/requires.txt
+[4.016s] writing top-level names to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/top_level.txt
+[4.023s] reading manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'
+[4.025s] adding license file 'LICENSE'
+[4.027s] writing manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'
+[4.028s] running build
+[4.029s] running build_py
+[4.029s] copying my_offboard_ctrl/testhead2.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[4.032s] running install
+[4.033s] running install_lib
+[4.036s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testhead2.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[4.041s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testhead2.py to testhead2.cpython-310.pyc
+[4.049s] running install_data
+[4.049s] running install_egg_info
+[4.058s] removing '/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[4.060s] Copying ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl-0.0.0-py3.10.egg-info
+[4.068s] running install_scripts
+[4.147s] Installing flight script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.148s] Installing langcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.149s] Installing offboard_ctrl_example script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.150s] Installing realcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.151s] Installing test script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.152s] Installing testaction script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.152s] Installing testaction1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.153s] Installing testaction2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.154s] Installing testhead script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.155s] Installing testhead1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.156s] Installing testhead2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[4.158s] writing list of installed files to '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log'
+[4.270s] Invoked command in '/home/yangdrone/ws_ros2/src/my_offboard_ctrl' returned '0': PYTHONPATH=/home/yangdrone/ws_ros2/build/my_offboard_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_offboard_ctrl build --build-base /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build install --record /home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log --single-version-externally-managed install_data

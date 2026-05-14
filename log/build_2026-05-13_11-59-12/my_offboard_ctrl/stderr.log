@@ -1,0 +1,5 @@
+  File "/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/drone_unified.py", line 354
+    parts = raw.split("
+                      ^
+SyntaxError: unterminated string literal (detected at line 354)
+

@@ -1,0 +1,14 @@
+[console_scripts]
+drone_unified = my_offboard_ctrl.drone_unified:main
+flight = my_offboard_ctrl.flight:main
+langcontrol = my_offboard_ctrl.langcontrol:main
+offboard_ctrl_example = my_offboard_ctrl.offboard_ctrl_example:main
+realcontrol = my_offboard_ctrl.realcontrol:main
+test = my_offboard_ctrl.test:main
+testaction = my_offboard_ctrl.testaction:main
+testaction1 = my_offboard_ctrl.testaction1:main
+testaction2 = my_offboard_ctrl.testaction2:main
+testhead = my_offboard_ctrl.testhead:main
+testhead1 = my_offboard_ctrl.testhead1:main
+testhead2 = my_offboard_ctrl.testhead2:main
+

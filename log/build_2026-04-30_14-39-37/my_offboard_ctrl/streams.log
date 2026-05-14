@@ -1,0 +1,72 @@
+[3.702s] Invoking command in '/home/yangdrone/ws_ros2/src/my_offboard_ctrl': PYTHONPATH=/home/yangdrone/ws_ros2/build/my_offboard_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_offboard_ctrl build --build-base /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build install --record /home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log --single-version-externally-managed install_data
+[5.062s] running egg_info
+[5.065s] creating ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info
+[5.066s] writing ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/PKG-INFO
+[5.067s] writing dependency_links to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/dependency_links.txt
+[5.068s] writing entry points to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/entry_points.txt
+[5.069s] writing requirements to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/requires.txt
+[5.069s] writing top-level names to ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/top_level.txt
+[5.070s] writing manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'
+[5.080s] reading manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'
+[5.081s] adding license file 'LICENSE'
+[5.084s] writing manifest file '../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info/SOURCES.txt'
+[5.084s] running build
+[5.085s] running build_py
+[5.086s] creating /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build
+[5.086s] creating /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib
+[5.087s] creating /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.087s] copying my_offboard_ctrl/testhead2.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.088s] copying my_offboard_ctrl/offboard_ctrl_example.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.090s] copying my_offboard_ctrl/gzcam.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.091s] copying my_offboard_ctrl/__init__.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.092s] copying my_offboard_ctrl/testaction.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.093s] copying my_offboard_ctrl/testaction2.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.095s] copying my_offboard_ctrl/testhead.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.096s] copying my_offboard_ctrl/test.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.098s] copying my_offboard_ctrl/testhead1.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.099s] copying my_offboard_ctrl/testaction1.py -> /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl
+[5.102s] running install
+[5.103s] running install_lib
+[5.106s] creating /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.107s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testhead2.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.108s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/offboard_ctrl_example.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.109s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/gzcam.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.109s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/__init__.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.110s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testaction.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.111s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testaction2.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.112s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testhead.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.113s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/test.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.114s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testhead1.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.115s] copying /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build/lib/my_offboard_ctrl/testaction1.py -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl
+[5.118s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testhead2.py to testhead2.cpython-310.pyc
+[5.122s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/offboard_ctrl_example.py to offboard_ctrl_example.cpython-310.pyc
+[5.126s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/gzcam.py to gzcam.cpython-310.pyc
+[5.128s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/__init__.py to __init__.cpython-310.pyc
+[5.129s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testaction.py to testaction.cpython-310.pyc
+[5.135s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testaction2.py to testaction2.cpython-310.pyc
+[5.142s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testhead.py to testhead.cpython-310.pyc
+[5.145s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/test.py to test.cpython-310.pyc
+[5.147s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testhead1.py to testhead1.cpython-310.pyc
+[5.151s] byte-compiling /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl/testaction1.py to testaction1.cpython-310.pyc
+[5.156s] running install_data
+[5.157s] creating /home/yangdrone/ws_ros2/install/my_offboard_ctrl/share/ament_index
+[5.157s] creating /home/yangdrone/ws_ros2/install/my_offboard_ctrl/share/ament_index/resource_index
+[5.157s] creating /home/yangdrone/ws_ros2/install/my_offboard_ctrl/share/ament_index/resource_index/packages
+[5.158s] copying resource/my_offboard_ctrl -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/share/ament_index/resource_index/packages
+[5.159s] copying package.xml -> /home/yangdrone/ws_ros2/install/my_offboard_ctrl/share/my_offboard_ctrl
+[5.159s] running install_egg_info
+[5.166s] Copying ../../build/my_offboard_ctrl/my_offboard_ctrl.egg-info to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages/my_offboard_ctrl-0.0.0-py3.10.egg-info
+[5.172s] running install_scripts
+[5.254s] Installing flight script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.254s] Installing langcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.255s] Installing offboard_ctrl_example script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.256s] Installing realcontrol script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.256s] Installing test script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.257s] Installing testaction script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.257s] Installing testaction1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.258s] Installing testaction2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.259s] Installing testhead script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.259s] Installing testhead1 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.260s] Installing testhead2 script to /home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/my_offboard_ctrl
+[5.262s] writing list of installed files to '/home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log'
+[5.387s] Invoked command in '/home/yangdrone/ws_ros2/src/my_offboard_ctrl' returned '0': PYTHONPATH=/home/yangdrone/ws_ros2/build/my_offboard_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yangdrone/ws_ros2/install/my_offboard_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_offboard_ctrl build --build-base /home/yangdrone/ws_ros2/build/my_offboard_ctrl/build install --record /home/yangdrone/ws_ros2/build/my_offboard_ctrl/install.log --single-version-externally-managed install_data
