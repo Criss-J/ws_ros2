@@ -55,6 +55,7 @@ LangChain + Gemini가 명령을 해석하고, ROS 2로 로컬 PC의 PX4 SITL을 
 ```
 
 ### 로컬 PC (별도 구축 필요)
+https://github.com/youngmo123/PX4-ROS2-Gazebo-Drone-Simulation-Template 참고
 - **OS**: Ubuntu 22.04
 - **ROS 2**: Humble
 - **PX4**: v1.15.x (release/1.15 권장)
